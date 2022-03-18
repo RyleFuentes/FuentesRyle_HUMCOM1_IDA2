@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body style="background-color: white;">
+
+    <form style=" background-color: gray;">
+        <fieldset>
+            <h2 style="text-align: center;">Signup Now!</h2>
+            <fieldset >
+            <legend>Your information</legend>
+            <div>
+                <label >Name</label> 
+                <input type="text" required placeholder="Full Name"> 
+            </div>  
+            <div>
+                <label >Email</label> 
+                <input type="email" required placeholder="e.g juanTomas@gmail.com"> 
+            </div>
+            <div>
+                <label >Phone</label> 
+                <input type="text" name="Phone" required placeholder="Please enter an 11 digit number"> 
+            </div>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Delivery Address</legend>
+
+                <div>
+                    <label> Address 1</label>
+                    <input type="text" name="address" placeholder="House/apt. Number and Street">
+                </div>
+                <div>
+                    <label>District/Barangay</label>
+                    <input type="text" required placeholder="Barangay santo Tomas">
+                </div>
+                    <label >City</label>
+                    <select name="City" id="City">
+                        <option value="Baguio">Baguio</option>
+                        <option value="Manila">Manila</option>
+                        <option value="other">Others</option>
+                    </select>
+                
+                <div>
+                    <label for="Postal">Postal Code</label>
+                    <input type="text" name="postal"  required placeholder="eg 2600">
+                </div>
+
+                <div>
+                    <label for="Province">Province</label>
+                    <select name="Province" id="Province">
+                        <option value="Benguet">Benguet</option>
+                        <option value="Albay">Albay</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </div>
+
+                <div></div>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Membership Information</legend>
+                <div>
+                <label for="Username">Username</label>
+                <input type="text" required placeholder="At least 8 alphanumeric characters">
+                </div>
+
+                <div>
+                <label for="Password">Password</label>
+                <input type="password" required placeholder="any combination that you want">
+                </div>
+
+                <div>
+                
+                    <label for="Mag">Magazine Subscription</label> <br>
+                    
+                        <input type="checkbox" required>PCMagazine <br>
+                        <input type="checkbox" required>Wired<br>
+                        <input type="checkbox" required>ComputerWorld<br>
+                        <input type="checkbox" required>I don't subscribe<br>
+                        <input type="checkbox" required>Other<br>
+                        
+                 
+                </div>
+            </fieldset>
+
+            <button for="submit">Submit</button>
+      </fieldset>
+
+    </form>
+
+</body>
+</html>
