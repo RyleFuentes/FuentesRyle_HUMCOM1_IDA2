@@ -1,0 +1,246 @@
+HTML{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: aqua;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNberfs0EVvaVYQpSYF1D_xC9KmrG4Jjii7Q&usqp=CAU);
+    background-size: contain;
+    
+   
+}
+
+.whole{
+    align-content: center;
+    padding: 15px;
+    padding-bottom: 15px;
+    height: 120px; width: 500px;
+    max-width: auto;
+    margin: auto;
+}
+
+.whole div{
+    margin: 15px;
+    padding-bottom: 15px;
+   
+}
+
+
+.container{
+    background-image: url(https://i.pinimg.com/originals/69/f9/e9/69f9e9afdabacb960185c5aaea3af619.gif);
+    height: 120px; width: 500px;
+    background-size: cover;
+    background-position: center;
+    max-width: auto;
+    margin: 10px;
+    border: 5px double green;
+    
+    padding: 10px;
+    
+}
+.logo{
+    float: left;
+    border: 2px solid greenyellow;
+    margin: 5px;
+    padding: 1px;
+    height: 75px; 
+    width: 100px;
+    text-align: center;
+    background-image: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/277187245_352525566820193_2944114665975978771_n.png?stp=dst-png_p320x320&_nc_cat=101&ccb=1-5&_nc_sid=aee45a&_nc_eui2=AeG-9HeQiitw67yT61sQj4N9JrqzbyQq96smurNvJCr3q9tQ2Llb4ReILqHR0rFst5HbnwXRSL-gnUit4eaVuqW2&_nc_ohc=LNAHOErCmdAAX-BtShs&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVIcVosJmIfqDi1bd-is-pQUs4eFWZgX80Y-DtH45N_jbg&oe=62709637);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto;
+
+}
+
+
+.header nav{
+    
+    margin: 5px;
+    max-height: max-content;
+    box-sizing:border-box;
+    padding: 15px;
+    width: 100x;
+    
+    
+
+}
+
+.nav li{
+    
+    display: inline;
+   
+    border: 2px solid orange;
+    
+    background-color: black;
+    margin: 10px;
+    
+    
+    padding: 3px;
+    font-family: Broadway;
+    font-size: 13px;
+    list-style: none;
+    box-sizing: content-box;
+    
+    
+    
+}
+
+.nav *{
+    text-decoration: none;
+    
+}
+
+.nav li a{
+    color: white;
+    
+}
+
+.body {
+    background-image: url(https://cdn.shopify.com/s/files/1/0285/1316/products/w0263_1s_Nautical-Waves-Wallpaper-for-Walls-Waves-of-Chic_Repeating-Pattern-Sample-1.jpg?v=1604091534);
+    background-size: contain;
+    margin: auto;
+    max-height: max-content;
+    border: 3px double orangered;
+    padding: 15px;
+    width: 505px;
+    max-width: max-content;
+    background-color: yellowgreen;
+    box-shadow: 0px 0px 10px 2px black;
+}
+
+
+h1{
+    font-family: Blackadder ITC;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+
+.content {
+    max-width: 500px;
+    max-height: max-content;
+    padding: 50px;
+    border: 3px dotted blue;
+    margin: 10px;
+    box-shadow: 0px 0px 10px 2px black;
+    
+
+}
+
+.anime {
+  background-image: url(https://wallpaperaccess.com/full/232754.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: auto;
+
+  text-align: center;
+  
+    
+}
+
+.anime h3{
+    font-family:  Blackadder ITC;
+    font-size: 50px;
+    text-align: left;
+    
+}
+
+.anime p{
+    background-color: rgba(255, 253, 253, .2);
+    color: black;
+    font-family: Arial black;
+}
+
+.music{
+    background-image: url(https://cdn.pixabay.com/photo/2017/10/11/23/35/musical-background-2842924_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-position: auto;
+
+}
+
+.music h3{
+    font-family:  Blackadder ITC;
+    font-size: 50px;
+    text-align: left;
+    
+}
+
+.music p{
+    background-color: rgba(255, 253, 253, .2);
+    text-align: center;
+    color: black;
+    font-family: Arial black;
+
+}
+
+.games{
+    background-image: url(https://images5.alphacoders.com/680/thumb-1920-680381.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.games h3{
+    font-family:  Blackadder ITC;
+    font-size: 50px;
+    text-align: left;
+}
+
+.games p{
+    background-color: rgba(255, 253, 253, .2);
+    text-align: center;
+    color: black;
+    font-family: Arial black;
+}
+
+.footer{
+    box-shadow: 0px 0px 10px 2px black;
+    align-self: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    margin: auto;
+    max-height: max-content;
+    border: 3px double orangered;
+    padding: px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 450x;
+    max-width: auto;
+    background-image: url(https://c.tenor.com/FIlAXMHf8vsAAAAd/naruto-background.gif);
+    position: relative;
+    left: 13%;
+}
+
+.footer h2{
+    font-family:  Blackadder ITC;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+
+}
+
+.footer li{
+    
+    border: 2px solid black;
+    background-color: beige;
+    border: 3px;
+    margin: 1.9px;
+    font-size: smaller;
+    display: inline;
+    padding: 2.5px;
+    font-family: Broadway;
+    list-style: none;
+    box-sizing: content-box;
+}
+
+.footer *{
+    text-decoration: none;
+    color: black;
+}
+
+
+
